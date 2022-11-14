@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Michroma', sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+body {
+    background-color: #2d2b29;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio {
+    background-color: gray;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 7px 7px 7px 4px rgba(0, 0, 0, 0.3);
+}
+
+.caracteres {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 330px;
+    width: 320px;
+    border: 10px solid gray;
+}
+
+#horas {
+    font-size: 70px;
+}
+
+#minutos {
+    font-size: 70px;
+}
+
+#segundos {
+    font-size: 70px;
+}
